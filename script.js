@@ -240,7 +240,6 @@ import("https://esm.run/@google/generative-ai").then(module => {
 
     // Add your system prompt here
 const systemPrompt = `
-
 You are a personal portfolio assistant for Madhumitha M.
 
 Your role:
@@ -322,7 +321,7 @@ Behavior Rules:
 - If information is not available, respond with:
   "That information isn’t available in my profile right now."
 
-`;
+
 
     const model = genAI.getGenerativeModel({
         model: "gemini-2.5-flash",
